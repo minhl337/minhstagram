@@ -1,0 +1,73 @@
+.my-posts-container {
+    position: relative;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 50px 20px 0px;
+}
+
+.my-posts-container-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.my-posts-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 100%;
+    flex: 1.5
+}
+
+.my-info {
+    position: relative;
+    flex: 1
+    /* width: 300px; */
+    /* position: relative; */
+}
+
+.card-userinfo {
+    max-height: 30px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.delete-container {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-icon {
+
+    background-size: contain;
+    float: right;
+    height: 40px;
+    width: 40px;
+    /* padding-top: -10px; */
+}
+
+.my-postcard {
+    position: relative;
+    max-width: 100%;
+    /* max-height: 500px; */
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+}
+
+.mypost-img-container {
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
